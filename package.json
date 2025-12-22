@@ -1,0 +1,36 @@
+{
+  "name": "jiofi-web-controller",
+  "version": "1.0.0",
+  "description": "Web-based JioFi M2S device controller with calling, SMS, and device management",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server .",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "gh-pages -d ."
+  },
+  "keywords": [
+    "jiofi",
+    "m2s",
+    "device-controller",
+    "voice-calls",
+    "sms",
+    "webrtc",
+    "github-pages"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^6.1.0",
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NotUltimateNinja/jiofi-controller.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NotUltimateNinja/jiofi-controller/issues"
+  },
+  "homepage": "https://NotUltimateNinja.github.io/jiofi-controllers"
+}
